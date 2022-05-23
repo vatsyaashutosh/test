@@ -1,0 +1,153 @@
+.displayUsers{
+    display: flex;
+    padding: 0 20px;
+    height: 72px;
+    width: 30%;
+    align-items: center;
+    justify-content:space-between;
+    margin: auto;
+    margin-bottom:8px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+}
+.displayUsers:hover{
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    background-color: rgb(255, 255, 255);
+}
+.displayUsers:hover .userInfo>h4{
+    color: red;
+    transition: all 0.3s ease;
+}
+.displayUsers:hover .userImg img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.6s ease;
+    
+}
+.userImg{
+    width: 4rem;
+    height: 4rem ;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userImg img{
+    width: 70%;
+    border-radius: 50%;
+    transition: all 0.6s ease;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2.4px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.userInfo{
+    width: 80%;
+    text-align:left;
+}
+.userInfo h4{
+    margin: 0;
+    transition: all 0.3s ease;
+}
+.searchBtn{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    margin: 0 30px;
+}
+.searchBtn:hover{
+    letter-spacing: 3px;
+ background-color: rgb(220, 24, 24);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(220, 47, 24) 0px 7px 29px 0px;
+}
+.searchBtn:active {
+    letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+   }
+   .searchDiv{
+    margin-top:40px;
+    margin-bottom:20px;
+   }
+   .searchBox{
+    padding: 10px 40px;
+    border: 1px solid black;
+    
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   }
+   .searchBox:focus{
+    outline:none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing:1px;
+   }
+   .btnDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin:20px auto;
+   }
+   .prevBtn{
+    display: flex;
+    height: 2em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+border: 2px solid rgb(224, 224, 224);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+   }
+   .prevBtn svg{
+    margin-right: 5px;
+ margin-left: 5px;
+ font-size: 20px;
+ transition: all 0.4s ease-in;
+   }
+   .prevBtn:hover svg{
+    font-size: 1.2em;
+ transform: translateX(-5px);
+   }
+
+   .nextBtn{
+    display: flex;
+    height: 2em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+border: 2px solid rgb(220, 220, 220);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+   }
+   .nextBtn svg{
+    margin-right: 5px;
+ margin-left: 5px;
+ font-size: 20px;
+ transition: all 0.4s ease-in;
+   }
+   .nextBtn:hover svg{
+    font-size: 1.2em;
+ transform: translateX(5px);
+   }

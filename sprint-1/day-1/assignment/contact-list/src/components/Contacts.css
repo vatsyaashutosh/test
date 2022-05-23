@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.wrapper_contact {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding:6px 10px;
+}
+.container{
+    display: flex;
+    height: 70px;
+    color: rgb(228, 228, 228);
+}
+.imgDiv{
+    height:100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgDiv img{
+    /* width: 100%; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contactDetails{
+    display: flex;
+    width: 85%;
+    padding:  12px;
+    align-items: center;
+    justify-content:space-between;
+}
+.contactDetails h4{
+    letter-spacing:.3px;
+    /* font-weight: 500; */
+    font-family: 'Raleway', sans-serif;
+}
+.contact_phone{
+    display: flex;
+    padding: 12px ;
+    justify-content:flex-end;
+    transition: all 0.2s ease;
+    color: rgb(0, 0, 0);
+}
